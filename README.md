@@ -26,7 +26,7 @@ repository, the models supported are:
 - CodeT5 ([codet5-base](https://huggingface.co/Salesforce/codet5-base))
 - CodeT5+ ([codet5p-770m](https://huggingface.co/Salesforce/codet5p-770m))
 
-The code that invokes these models are at `fauxpilot_lite/model.py`. You should
+The code that invokes these models are at [`fauxpilot_lite/model.py`](https://github.com/righthandabacus/fauxpilot_lite/blob/master/fauxpilot_lite/model.py). You should
 see there's high resemblance to the sample code in the model card.
 
 ## How to use
