@@ -96,3 +96,9 @@ plugin. You just need to change the server and engine, as in the screenshot
 below:
 
 ![](img/fauxpilot_config.png)
+
+The server should be like `http://hostname:5000/v1/engines`
+
+The engine can be any of the following: `codegen`, `codegen2`, `codet5`, `codet5p`
+
+This name would be part of the URL that it requested, e.g., `http://hostname:5000/v1/engines/codegen2/completions`
