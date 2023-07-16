@@ -66,7 +66,7 @@ where the POST body is in the JSON file `request.json`, as follows:
 }
 ```
 
-If success, you should see a response like the follows on screen:
+If success, you should see a response like the following on screen:
 
 ```
 {
@@ -102,3 +102,5 @@ The server should be like `http://hostname:5000/v1/engines`
 The engine can be any of the following: `codegen`, `codegen2`, `codet5`, `codet5p`
 
 This name would be part of the URL that it requested, e.g., `http://hostname:5000/v1/engines/codegen2/completions`
+
+![](img/demo.gif)
